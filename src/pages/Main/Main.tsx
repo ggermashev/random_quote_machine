@@ -44,7 +44,9 @@ const Main = () => {
                 </>
             }
             <Button className={styles.btn} onClick={() => {
-                load()
+                if (!isLoading) {
+                    load()
+                }
             }}>Новая цитата</Button>
         </div>
     );
