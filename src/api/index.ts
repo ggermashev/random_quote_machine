@@ -1,10 +1,14 @@
 import axios from "axios"
+import {API_KEY} from "./key";
 
 async function getQuote() {
-    const response = await fetch("https://api.forismatic.com/api/1.0/?method=getQuote&key=random&format=jsonp&lang=ru&jsonp=?", {
-    })
-    console.log(response)
-    return response
+   const response = await fetch("https://api.api-ninjas.com/v1/quotes",{
+      headers: {
+         'X-Api-Key': API_KEY
+      }
+   })
+   const data = await response.json()
+   return data
 }
 
 
