@@ -1,5 +1,9 @@
-Random Quote Machine  - Генератор цитат
+# Random Quote Machine  - Генератор цитат
 
-Используемое API: https://api-ninjas.com/api/quotes
+## Используемое API: https://api-ninjas.com/api/quotes
 
-Решение можно посмотреть тут: https://ggermashev.github.io/random_quote_machine/
+## Стэк:
+- React
+- TypeScript
+
+### https://ggermashev.github.io/random_quote_machine/
